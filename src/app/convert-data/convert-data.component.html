@@ -1,0 +1,32 @@
+<section>
+    <div class="w-full flex flex-wrap flex-row">
+        <div class="vh-screen relative overflow-hidden w-full  lg:w-[38%] h-full p-4 ">
+            <p class="font-bold mb-2">Enter your json data</p>
+            <div contenteditable="true" class="w-full h-full border-2"
+                class="content border-2 h-full w-full outline-0	p-2 text-sm	" #ecinput (paste)="onPaste($event)">
+            </div>
+        </div>
+
+        <div class=" relative md:flex lg:w-[12%] w-full flex-col justify-center p-4">
+            <select (change)="getRenderedChart($event)">
+                <option value="0">Select Data to convert</option>
+                <option value="bar">Bar</option>
+                <option value="line">Line</option>
+                <option value="doughnut">Doughnut</option>
+                <option value="pie">Pie</option>
+                <option value="polarArea">Polar Area</option>
+                <option value="radar">Radar</option>
+                <option value="bubble">Bubble</option>
+                <option value="scatter">Scatter</option>
+            </select>
+        </div>
+
+        <div class="vh-screen relative overflow-hidden w-full  lg:w-[38%] h-full p-4 ">
+            <p class="font-bold mb-2">Converted data</p>
+            <div contenteditable="true" class="w-full h-full border-2"
+                class="content border-2 h-full w-full outline-0	p-2 text-sm	" #ecOutput>
+            </div>
+        </div>
+
+    </div>
+</section>
