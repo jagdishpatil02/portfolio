@@ -1,9 +1,9 @@
 <div
-    class="container mx-auto   shadow-md  max-w-md border-l border-r border-[#2f3336] h-screen text-white min-w-[40%] overflow-auto hide-scroll">
+    class="container mx-auto dark:bg-black text-black  shadow-md  max-w-md border-l border-r dark:border-[#2f3336] h-screen text-white min-w-[40%] overflow-auto hide-scroll">
     <div class="flex items-center pt-12 px-4 bg-image  h-[200px] w-full bg-cover bg-no-repeat relative">
         <div class="flex items-center pt-12 px-0 absolute top-16 ">
             <img src="../../assets/images/profile.jpg" alt="Profile Avatar"
-                class="w-36 h-36 rounded-full mr-4  border-4  border-[#000]">
+                class="w-36 h-36 rounded-full mr-4  border-4  dark:border-[#000] border-[#fff]">
 
         </div>
     </div>
@@ -11,20 +11,20 @@
 
     <div class="flex items-center pt-12 px-4 mt-4">
         <div>
-            <h1 class="text-xl font-semibold">Jagdish Patil</h1>
+            <h1 class="text-xl font-semibold dark:text-white">Jagdish Patil</h1>
             <p class="text-gray-600">@jagdishpatil02</p>
         </div>
     </div>
     <!-- Bio Section -->
     <div class="mt-4 px-4">
-        <p>Hi,
+        <p class="dark:text-white">Hi,
             I'm Jagdish Patil. I build things for the web, and sometimes it works.
         </p>
     </div>
 
 
 
-    <div class="mb-4 border-b border-[#2f3336]  dark:border-gray-700 px-4">
+    <div class="mb-4 border-b dark:border-[#2f3336] border-[#eff3f4]  dark:border-gray-700 px-4">
         <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400"
             id="tabs-example" role="tablist">
             <li class="me-2" role="presentation">
@@ -56,23 +56,23 @@
     </div>
     <div id="tabContentExample">
         <div class="hidden p-4 " id="profile-example" role="tabpanel" aria-labelledby="profile-tab-example">
-            <p class="text-md text-white dark:text-gray-400">
+            <p class="text-md text-black dark:text-white">
                 a passionate Software Engineer with expertise in building user interfaces. When I'm not engrossed in
                 coding, I find delight in crafting memes and
                 indulging in the world of cinema and desi hip hop.
             </p>
         </div>
-        <div class="hidden dark:bg-gray-800" id="dashboard-example" role="tabpanel"
+        <div class=" hidden dark:text-white" id="dashboard-example" role="tabpanel"
             aria-labelledby="dashboard-tab-example">
             <ul>
-                <li class="py-8 px-4  border-b border-[#2f3336] ">Social Media Blocker
+                <li class="py-8 px-4  border-b dark:border-[#2f3336] border-[#eff3f4]">Social Media Blocker
                     <p class="px-2 py-2">>. Social media blocker is an extension which will not allow you to use social
                         media
                         websites
                         while
                         working with warning. This extension will help you to improve productivity.</p>
                 </li>
-                <li class="py-8 px-4  border-b border-[#2f3336] ">Drink Water
+                <li class="py-8 px-4  border-b dark:border-[#2f3336] border-[#eff3f4]">Drink Water
                     <p class="px-2 py-2">>. Drink Water (Jal Lijiye) is an extension that will remind you drink water
                         after every 20 mins. Drink Water (Jal Lijiye) is an extension which will help you to stay
                         hydrated.</p>
@@ -82,17 +82,8 @@
             </ul>
 
         </div>
-        <div class="hidden rounded-lg bg-gray-50 p-4 dark:bg-gray-800" id="settings-example" role="tabpanel"
-            aria-labelledby="settings-tab-example">
-            <p class="text-sm text-gray-500 dark:text-gray-400">
-                This is some placeholder content the
-                <strong class="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>.
-                Clicking another tab will toggle the visibility of this one for
-                the next. The tab JavaScript swaps classes to control the content
-                visibility and styling.
-            </p>
-        </div>
-        <div class="hidden dark:bg-gray-800 p-4" id="contacts-example" role="tabpanel"
+
+        <div class="hidden dark:text-white p-4" id="contacts-example" role="tabpanel"
             aria-labelledby="contacts-tab-example">
             <p>Feel free to reach out and connect with me here.</p>
             <p class="py-2 inline-flex"><a href="https://github.com/jagdishpatil02" target="_blank"><i
