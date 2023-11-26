@@ -1,6 +1,5 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { Tabs } from 'flowbite';
-import type { TabsOptions, TabsInterface, TabItem } from 'flowbite';
 
 @Component({
   selector: 'app-home',
@@ -16,18 +15,18 @@ export class HomeComponent implements OnInit, AfterViewInit {
     const tabElements: any = [
       {
         id: 'profile',
-        triggerEl: document.querySelector('#profile-tab-example'),
+        triggerEl: document.querySelector('#profile-tab'),
         targetEl: document.querySelector('#profile-example'),
       },
       {
         id: 'dashboard',
-        triggerEl: document.querySelector('#dashboard-tab-example'),
-        targetEl: document.querySelector('#dashboard-example'),
+        triggerEl: document.querySelector('#projects-tab'),
+        targetEl: document.querySelector('#project-example'),
       },
       {
         id: 'contacts',
-        triggerEl: document.querySelector('#contacts-tab-example'),
-        targetEl: document.querySelector('#contacts-example'),
+        triggerEl: document.querySelector('#contact-tab'),
+        targetEl: document.querySelector('#contact-example'),
       },
     ];
 
@@ -46,7 +45,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     };
     if (instanceOptions && tabElements && options && tabsElement) {
       const tabs = new Tabs(tabsElement, tabElements, options, instanceOptions);
-      tabs.show('contacts');
+      tabs.show('profile');
     }
   }
 }
