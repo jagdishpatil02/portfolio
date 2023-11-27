@@ -7,7 +7,16 @@ import { Tabs } from 'flowbite';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit, AfterViewInit {
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    let currentMode = window.localStorage.getItem('darkMode');
+    let bgImage = document.getElementById('bgCoverImage') as HTMLElement;
+    console.log(currentMode);
+    if (currentMode == 'true') {
+      bgImage.style.backgroundImage = 'url(../assets/images/sunset.jpg)';
+    } else {
+      bgImage.style.backgroundImage = 'url(../assets/images/sunrise.jpg)';
+    }
+  }
 
   ngAfterViewInit(): void {
     const tabsElement = document.getElementById('tabs-example');
