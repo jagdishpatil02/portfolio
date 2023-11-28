@@ -10,7 +10,6 @@ export class HomeComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
     let currentMode = window.localStorage.getItem('darkMode');
     let bgImage = document.getElementById('bgCoverImage') as HTMLElement;
-    console.log(currentMode);
     if (currentMode == 'true') {
       bgImage.style.backgroundImage = 'url(../assets/images/sunset.jpg)';
     } else {

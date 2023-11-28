@@ -16,11 +16,11 @@ import { initFlowbite } from 'flowbite';
 })
 export class AppComponent implements OnInit {
   darkMode = signal<boolean>(
-    JSON.parse(window.localStorage.getItem('darkMode') ?? 'false')
+    JSON.parse(window.localStorage.getItem('darkMode') ?? 'true')
   );
 
   lightMode = signal<boolean>(
-    JSON.parse(window.localStorage.getItem('lightMode') ?? 'true')
+    JSON.parse(window.localStorage.getItem('lightMode') ?? 'false')
   );
 
   @HostBinding('class.dark') get darkmode() {
