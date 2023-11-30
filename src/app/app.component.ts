@@ -32,12 +32,12 @@ export class AppComponent implements OnInit {
   toggleMode(mode: 'dark' | 'light') {
     if (mode === 'dark') {
       const bgImage = document.getElementById('bgCoverImage')!;
-      bgImage.style.backgroundImage = 'url(../assets/images/sunset.jpg)';
+      bgImage.style.backgroundImage = 'url(../assets/images/sunset.webp)';
       this.darkMode.set(true);
       this.lightMode.set(false);
     } else {
       const bgImage = document.getElementById('bgCoverImage')!;
-      bgImage.style.backgroundImage = 'url(../assets/images/sunrise.jpg)';
+      bgImage.style.backgroundImage = 'url(../assets/images/sunrise.webp)';
       this.lightMode.set(true);
       this.darkMode.set(false);
     }

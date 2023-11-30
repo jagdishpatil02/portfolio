@@ -11,9 +11,9 @@ export class HomeComponent implements OnInit, AfterViewInit {
     let currentMode = window.localStorage.getItem('darkMode');
     let bgImage = document.getElementById('bgCoverImage') as HTMLElement;
     if (currentMode == 'true') {
-      bgImage.style.backgroundImage = 'url(../assets/images/sunset.jpg)';
+      bgImage.style.backgroundImage = 'url(../assets/images/sunset.webp)';
     } else {
-      bgImage.style.backgroundImage = 'url(../assets/images/sunrise.jpg)';
+      bgImage.style.backgroundImage = 'url(../assets/images/sunrise.webp)';
     }
   }
 
