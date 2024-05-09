@@ -99,7 +99,7 @@
 \section{Programming Skills}
  \resumeSubHeadingListStart
    \item{
-     \textbf{Skills}{:  HTML , CSS, Bootstrap, TailwindCSS,  Javascript, Typescript, Angular, React, NodeJs, ExpressJs, Mongodb}
+     \textbf{Skills}{:  HTML , CSS, Bootstrap, TailwindCSS,  Javascript, Typescript, Angular, React, NodeJs, ExpressJs, Mongodb, Supabase}
      \hfill
    }
  \resumeSubHeadingListEnd
@@ -131,7 +131,7 @@
       {Vcreatek Consulting Services Pvt Ltd }{}
       {Software Engineer  }{April 2017 - Jan 2018}
       \resumeItemListStart
-        \resumeItem  {}{At Vcreatek, I proficiently developed responsive web designs, seamlessly integrated web services, and crafted visually appealing websites using WordPress and Bootstrap. Additionally, I served as the lead front-end developer on two products: Rogers and Foshan.}
+        \resumeItem  {}{At Vcreatek, I proficiently developed responsive web designs, seamlessly integrated web services, and crafted visually appealing websites using WordPress and Bootstrap. Additionally, I served as the \textbf{lead front-end developer on two products: Rogers and Foshan.}}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -155,7 +155,7 @@
 \href{https://chromewebstore.google.com/detail/drink-water-jal-lijiye/blohhdbhbdmaandamdbaomjkofpbclaf} {\color{blue}Link}
    \resumeSubItem{Winfolio :}
       {Winfolio is a web application designed for individuals to record and showcase their accomplishments, enabling users to log and share their achievements.} \hfill
-      \href{https://jagdishpatil02.github.io/angular/hotdog-or-not/} {\color{blue}Link}
+      \href{https://jagdishpatil02.github.io/react/winfolio/} {\color{blue}Link}
     \resumeSubItem{Hot dog or not :}
       {Hotdog or not is a web application designed to check if the uploaded image is a hot dog or not using LLM model from huggingface.}\hfill
       \href{https://jagdishpatil02.github.io/angular/hotdog-or-not/} {\color{blue}Link}
