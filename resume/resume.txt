@@ -46,7 +46,7 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    \textbf{#1}{ #2 \vspace{-2pt}}
   }
 }
 
@@ -54,7 +54,7 @@
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      {\small#3} & {\small #4} \\
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -75,8 +75,11 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://jagdish.vercel.app/}{\Large Jagdish Patil}} & Email : \href{mailto:patil.jagdish222@gmail.com}{patil.jagdish222@gmail.com}\\
-  \href{https://jagdish.vercel.app/}{https://jagdish.vercel.app/} & Mobile : +91 8849829524 \\
+  \textbf{\href{https://jagdish.vercel.app/}{\Large Jagdish Patil}} & Email : \href{mailto:patil.jagdish222@gmail.com}{\color{blue}patil.jagdish222@gmail.com}\\
+  \href{https://www.linkedin.com/in/jagdish-patil/}{\color{blue}LinkedIn}
+  \space \href{https://github.com/jagdishpatil02}{\color{blue}GitHub}
+   \space \href{https://jagdish.vercel.app/}{\color{blue}Portfolio}
+  & Mobile : +91 8849829524 \\
 \end{tabular*}
 
 
@@ -104,38 +107,38 @@
 \section{Experience}
   \resumeSubHeadingListStart
 \resumeSubheading
-      {Synechron      }{}
-      {Senior Associate - Technology}{March 2021 - Present}
+      {Synechron}{}
+      {{Senior Associate - Technology}}{March 2021 - Present}
       \resumeItemListStart
-        \resumeItem {}{As a frontend developer, I worked in crafting responsive web designs and implementing effective digital marketing strategies, including SEO, to optimize user experiences and drive online traffic. }
+        \resumeItem {} {At Synechron, I spearheaded \textbf{website performance optimization initiatives}, enhancing user experience through streamlined UI development and implementation, thereby improving overall site functionality and engagement metrics by over 90 percent}
       \resumeItemListEnd
       
     \resumeSubheading
       {Infogain     }{}
       {Software Engineer}{May 2019 - Feb 2021}
       \resumeItemListStart
-        \resumeItem {}{As a frontend developer, I worked in crafting responsive web designs and implementing effective digital marketing strategies, including SEO, to optimize user experiences and drive online traffic. }
+        \resumeItem {}{As a Software Engineer, I focused on crafting \textbf{responsive web designs} and \textbf{seamlessly integrating web services}, refining functionality, and enriching user experiences. Notably, I contributed to the healthcare project, Infomedika. }
       \resumeItemListEnd
       
     \resumeSubheading
-      {Boston Byte LLC    }{}
+      {Boston Byte LLC }{}
       {Frontend Developer}{Jan 2018 - May 2019}
       \resumeItemListStart
-        \resumeItem {}{As a frontend developer, I worked in crafting responsive web designs and implementing effective digital marketing strategies, including SEO, to optimize user experiences and drive online traffic. }
+        \resumeItem {}{As a Frontend Developer, I specialized in crafting responsive web designs and seamlessly integrating web services to optimize functionality and enhance user experience. Notably, I contributed to the healthcare project Wello.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Vcreatek Consulting Services Pvt Ltd    }{}
+      {Vcreatek Consulting Services Pvt Ltd }{}
       {Software Engineer  }{April 2017 - Jan 2018}
       \resumeItemListStart
-        \resumeItem {}{As a frontend developer, I worked in crafting responsive web designs and implementing effective digital marketing strategies, including SEO, to optimize user experiences and drive online traffic. }
+        \resumeItem  {}{At Vcreatek, I proficiently developed responsive web designs, seamlessly integrated web services, and crafted visually appealing websites using WordPress and Bootstrap. Additionally, I served as the lead front-end developer on two products: Rogers and Foshan.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Hmmbiz Web Solutions  }{}
       {Frontend Developer}{Aug 2016 - Apr 2017}
       \resumeItemListStart
-        \resumeItem {}{As a frontend developer, I worked in crafting responsive web designs and implementing effective digital marketing strategies, including SEO, to optimize user experiences and drive online traffic. }
+        \resumeItem {}{At Hmmbiz Web Solutions, I worked in crafting responsive web designs and implementing effective \textbf{ Search Engine Optimization Strategies, to optimize user experiences and drive online traffic}. }
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -144,23 +147,39 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{\href{https://jagdishpatil02.github.io/javascript/}{Chrome Extensions}}
+    \resumeSubItem{Chrome Extensions :}
       {Created a two fun chrome extension  \newline
-    1) Social media blocker  - Once activated, this extension restricts social media usage and provides warnings each time you attempt to access these sites, boosting productivity.  \newline
-2) Drink Water - Once activated,  it will remind you to drink water after every 20 min with the message.}
-   \resumeSubItem{Winfolio }
-      {Winfolio is a web application designed for individuals to record and showcase their accomplishments, enabling users to log and share their achievements.  }
-    \resumeSubItem{Hot dog or not}
-      { Hotdog or not is a web application designed to check if the uploaded image is a hot dog or not using LLM model from huggingface.
- }
-    \resumeSubItem{Accessible Code Generator }
-      {The Accessible Code Generator is a GPT wrapper designed to assist developers in suggesting accessible code changes based on WCAG (Web Content Accessibility Guidelines) standards. This tool utilizes the gpt-3.5-turbo model developed by OpenAI. }
+    1) Social media blocker  - Once activated, this extension restricts social media usage and provides warnings each time you attempt to access these sites, boosting productivity. \hfill
+     \href{https://chromewebstore.google.com/detail/social-media-blocker/bncdebfejhgcdicndlgalckjkmmhlikp} {\color{blue}Link} \newline
+2) Drink Water - Once activated,  it will remind you to drink water after every 20 min with the message.}  \hfill
+\href{https://chromewebstore.google.com/detail/drink-water-jal-lijiye/blohhdbhbdmaandamdbaomjkofpbclaf} {\color{blue}Link}
+   \resumeSubItem{Winfolio :}
+      {Winfolio is a web application designed for individuals to record and showcase their accomplishments, enabling users to log and share their achievements.} \hfill
+      \href{https://jagdishpatil02.github.io/angular/hotdog-or-not/} {\color{blue}Link}
+    \resumeSubItem{Hot dog or not :}
+      {Hotdog or not is a web application designed to check if the uploaded image is a hot dog or not using LLM model from huggingface.}\hfill
+      \href{https://jagdishpatil02.github.io/angular/hotdog-or-not/} {\color{blue}Link}
+    \resumeSubItem{Accessible Code Generator :}
+      {The Accessible Code Generator is a GPT wrapper designed to assist developers in suggesting accessible code changes based on WCAG (Web Content Accessibility Guidelines) standards. This tool utilizes the gpt-3.5-turbo model developed by OpenAI.}\hfill
+      \href{https://jagdishpatil02.github.io/angular/accessible-code-generator/} {\color{blue}Link}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Achievements}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Microsoft Certified}
+      {Earner of the Azure Fundamentals certification (AZ - 900) have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.} \hfill
+      \href{https://www.credly.com/badges/ec35eb8e-1f06-455e-bb74-950f610cb249/linked_in_profile} {\color{blue}Link}
+   \resumeSubItem{FreeCodeCamp Certified }
+      {Received certification from FreeCodeCamp for expertise in responsive web design, demonstrating proficiency in creating adaptable and user-friendly interfaces.}\hfill
+    \href{https://www.freecodecamp.org/certification/jagdishpatil/responsive-web-design} {\color{blue}Link}
+
        
 
   \resumeSubHeadingListEnd
 
 
 
-
 %-------------------------------------------
 \end{document}
+  
